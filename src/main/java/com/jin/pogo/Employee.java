@@ -1,6 +1,5 @@
 package com.jin.pogo;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -12,16 +11,16 @@ import java.util.Date;
 public class Employee {
 
     private Integer id;
-    private String laseName;
+    private String lastName;
     private String email;
     private Integer gender;
 
     private Department department;
     private Date birth;
 
-    public Employee(Integer id, String laseName, String email, Integer gender, Department department ) {
+    public Employee(Integer id, String lastName, String email, Integer gender, Department department ) {
         this.id = id;
-        this.laseName = laseName;
+        this.lastName = lastName;
         this.email = email;
         this.gender = gender;
         this.department = department;
