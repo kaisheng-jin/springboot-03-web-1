@@ -47,4 +47,10 @@ public class EmployeeController {
         //因为是到一个servlet，所以重定向
         return "redirect:/emps";
     }
+
+
+    public String toUpdateEmp(){
+        //查出原来数据
+        return "emp/update";
+    }
 }
